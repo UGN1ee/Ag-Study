@@ -4,16 +4,16 @@ using namespace std;
 
 int main() {
 	int a, b;
-	int sam, sa, oh;
+	int i, j, k;
 	cin >> a >> b;
-	sam = a*(b % 10);
-	sa = a*((b % 100) - (b % 10));
-	oh = a*(b/100);
+	i = a*(b % 10);
+	k = a*((b % 100) - (b % 10));
+	j = a*(b/100);
 
-	cout << sam << endl;
-	cout << sa/10 << endl;
-	cout << oh << endl;
-	cout << sam+sa+(oh*100) << endl;
+	cout << i << endl;
+	cout << k/10 << endl;
+	cout << j << endl;
+	cout << i+k+(j*100) << endl;
 
 	return 0;
 }
